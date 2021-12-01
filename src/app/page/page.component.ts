@@ -14,6 +14,8 @@ export class PageComponent implements OnInit {
     image: 'assets/bg00.jpg'
   };
 
+  name = 'Pankaj';
+
   teams = [
     {
       name: 'Team 1',

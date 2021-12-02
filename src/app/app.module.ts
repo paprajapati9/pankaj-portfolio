@@ -15,12 +15,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
+import { TimelineComponent } from './util/timeline/timeline.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageComponent,
-    HeaderNavbarComponent
+    HeaderNavbarComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,

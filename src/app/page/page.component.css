@@ -8,7 +8,7 @@
     color: #fff;
     padding-top: 80px;
     padding-bottom: 80px;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 h1 {

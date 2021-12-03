@@ -13,6 +13,12 @@
     </a>
   </button>
 </div>
+<section class="pp-background-container">
+  <div class="pp-projects-section">
+    <h2>My Projects</h2>
+    <p>Here is a list of all the personal projects I have done during the last 3 years.</p>
+  </div>
+</section>
 <mat-grid-list cols="4" rowHeight="400">
   <mat-grid-tile *ngFor="let team of teams" [routerLink]="">
       <mat-card class="example-card">
@@ -28,3 +34,4 @@
       </mat-card>
   </mat-grid-tile>
 </mat-grid-list>
+<app-timeline></app-timeline>

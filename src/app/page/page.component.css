@@ -1,10 +1,10 @@
 .pp-background-container {
     font-family: sans-serif;
     padding: 60px;
+    background-color: var(--neutral-500);
 }
 
 .pp-heading-block {
-    background-color: #333232;
     color: #fff;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -16,18 +16,23 @@ h1 {
     margin: 0;
 }
 
-.pp-heading-block-description{
+h2 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.pp-heading-block-description {
     color: rgb(161, 161, 161);
     font-size: 1.4em;
     margin: 0;
     padding-top: 40px;
 }
 
-.pp-accent-400{
+.pp-accent-400 {
     color: #f66714;
 }
 
-.pp-secondary-button{
+.pp-secondary-button {
     background: transparent;
     border-color: #8aaf10;
     color: #8aaf10;
@@ -38,7 +43,22 @@ h1 {
     padding: 12px 34px;
 }
 
-.pp-secondary-button:hover{
+.pp-secondary-button:hover {
     background: #8aaf10;
     color: #fff;
+}
+
+.pp-projects-container {
+    color: #fff;
+    padding-top: 0px;
+}
+
+.pp-projects-description {
+    text-align: center;
+    border-top: dashed 2px #8aaf10;
+    padding-top: 60px;
+}
+
+.pp-accent-300 {
+    color: #f69414;
 }

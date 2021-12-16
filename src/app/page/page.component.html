@@ -16,21 +16,16 @@
 <section class="pp-background-container pp-projects-container">
   <div class="pp-projects-description">
     <h2>My <span class="pp-accent-300">Projects</span></h2>
-    <p>Here is a list of all the personal projects I have done during the last 3 years.</p>
+    <p>Here is a list of all the projects I have done during the last 3 years.</p>
   </div>
   <mat-grid-list cols="4" rowHeight="400">
-    <mat-grid-tile *ngFor="let team of teams" [routerLink]="">
-        <mat-card class="example-card">
+    <mat-grid-tile *ngFor="let project of projects" [routerLink]="">
+        <div class="pp-project-card">
           <mat-card-header>
-            <mat-card-title>{{page.name}}</mat-card-title>
+            <mat-card-title>{{project.name}}</mat-card-title>
           </mat-card-header>
-          <img mat-card-image src="{{team.image}}" alt="{{team.name}}">
-          <mat-card-content>
-            <p>
-              {{page.location}}
-            </p>
-          </mat-card-content>
-        </mat-card>
+          <img mat-card-image src="{{project.image}}" alt="{{project.name}}">
+        </div>
     </mat-grid-tile>
   </mat-grid-list>
 </section>

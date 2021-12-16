@@ -17,49 +17,27 @@ export class PageComponent implements OnInit {
 
   name = 'Pankaj';
 
-  teams = [
+  projects = [
     {
-      name: 'Team 1',
-      members: [
-        {
-          name: 'Member 1',
-          image: 'assets/bg00.jpg'
-        },
-        {
-          name: 'Member 2',
-          image: 'assets/bg00.jpg'
-        },
-        {
-          name: 'Member 3',
-          image: 'assets/bg00.jpg'
-        },
-        {
-          name: 'Member 4',
-          image: 'assets/bg00.jpg'
-        }
-      ]
+      name: 'AlgoViz',
+      image: 'assets/bg00.jpg'
     },
     {
-      name: 'Team 2',
-      members: [
-        {
-          name: 'Member 1',
-          image: 'assets/bg00.jpg'
-        },
-        {
-          name: 'Member 2',
-          image: 'assets/bg00.jpg'
-        },
-        {
-          name: 'Member 3',
-          image: 'assets/bg00.jpg'
-        },
-        {
-          name: 'Member 4',
-          image: 'assets/bg00.jpg'
-        }
-      ]
-    }
+      name: 'Chatterbox',
+      image: 'assets/bg00.jpg'
+    },
+    {
+      name: 'Kronos',
+      image: 'assets/bg00.jpg'
+    },
+    {
+      name: 'Youtube Downloader',
+      image: 'assets/bg00.jpg'
+    },
+    {
+      name: 'Movie Recommendation System',
+      image: 'assets/bg00.jpg'
+    },
   ]
 
   constructor() { }

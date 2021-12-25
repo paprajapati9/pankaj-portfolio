@@ -8,10 +8,9 @@
   <img align="right" height="250" width="400" alt="GIF" src="https://miro.medium.com/max/850/0*7Q3yvSIv_t0ioJ-Z.gif">
 </a>
 
-- 🔭 I’m currently learning **Angular**
+- 🔭 I’m currently **Contributing to Open Source**
 
 - 👯 I’m looking to collaborate on **Web Development and Data Analysis**
-- 🤔 I’m looking for **Internships**
 - 💬 Ask me about Anything! I am happy to help.
 
 <br/>

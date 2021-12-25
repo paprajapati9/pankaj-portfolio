@@ -19,19 +19,19 @@
 <br/>
 
 <p align="center">
-  <img src="https://gpvc.arturio.dev/ananya26-vishnoi" alt="profile views"> •  
-  <img alt="GitHub followers" src="https://img.shields.io/github/followers/ananya26-vishnoi?label=Followers&style=social"> •   
-  <img src="https://img.shields.io/github/stars/ananya26-vishnoi?label=Stars" alt="Total Stars">
+  <img src="https://gpvc.arturio.dev/paprajapati9" alt="profile views"> •  
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/paprajapati9?label=Followers&style=social"> •   
+  <img src="https://img.shields.io/github/stars/paprajapati9?label=Stars" alt="Total Stars">
 </p>
 
 #
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ananya26-vishnoi&column=8&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh)](https://github.com/ananya26-vishnoi)
+[![trophy](https://github-profile-trophy.vercel.app/?username=paprajapati9&column=8&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh)](https://github.com/paprajapati9)
 
 <p align="center">
   <a>
     <img height="180" width="150" src="https://i.pinimg.com/originals/5a/4a/f6/5a4af6d23c1981fbe04d131c88c2031d.png">
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ananya26-vishnoi&theme=dark&hide_border=true"/>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=paprajapati9&theme=dark&hide_border=true"/>
     <img height="180" width="150" src="https://i.pinimg.com/originals/5a/4a/f6/5a4af6d23c1981fbe04d131c88c2031d.png">
   </a>
 </p>
@@ -55,14 +55,14 @@
 #
 
 <p align="center">
-    <a href="https://github.com/ananya26-vishnoi">
-        <img align="center" src="https://github-readme-stats.vercel.app/api?username=ananya26-vishnoi&show_icons=true&hide_border=true&title_color=94b4a4&amp&icon_color=FFFFFF&amp&text_color=FFFFFF&amp&bg_color=000000&count_private=true&include_all_commits=true"/>
+    <a href="https://github.com/paprajapati9">
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=paprajapati9&show_icons=true&hide_border=true&title_color=94b4a4&amp&icon_color=FFFFFF&amp&text_color=FFFFFF&amp&bg_color=000000&count_private=true&include_all_commits=true"/>
     </a>
     <a href="https://stackoverflow.com/users/11807615/pankaj-prajapati" target="blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="11807615" height="30" width="40"/>
     </a>
-    <a href="https://github.com/ananya26-vishnoi">
-        <img align="center" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananya26-vishnoi&text_color=FFFFFF&bg_color=000000&title_color=94b4a4&langs_count=15&layout=compact&hide_border=true&area=true" />
+    <a href="https://github.com/paprajapati9">
+        <img align="center" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paprajapati9&text_color=FFFFFF&bg_color=000000&title_color=94b4a4&langs_count=15&layout=compact&hide_border=true&area=true" />
     </a>
 </p>
 </details>

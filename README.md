@@ -100,6 +100,9 @@
     <a href="https://stackoverflow.com/users/11807615/pankaj-prajapati" target="blank">
         <code><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="11807615" height="60" width="60"/></code>
     </a>
+    <a href="https://leetcode.com/paprajapati9/>" target="blank">
+        <code><img src="https://raw.githubusercontent.com/LeetCode-OpenSource/vscode-leetcode/master/resources/LeetCode.png" alt="paprajapati9" height="60" width="60"/></code>
+    </a>
 </p>
 
 </code>

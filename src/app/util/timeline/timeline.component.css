@@ -7,6 +7,17 @@
     background-color: #474e5d;
     font-family: Helvetica, sans-serif;
   }
+
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .timeline-heading {
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+  }
   
   /* The actual timeline (the vertical ruler) */
   .timeline {

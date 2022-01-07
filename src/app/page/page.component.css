@@ -69,3 +69,18 @@ h2 {
     border-radius: 100px;
     background-color: aquamarine;
 }
+
+hr.dotted {
+    border: 0;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.dotted::before {
+    content: '...';
+    display: inline-block;
+    margin-left: 0.6em;
+    color: #8aaf10;
+    font-size: 35px;
+    letter-spacing: 1.5em;
+}

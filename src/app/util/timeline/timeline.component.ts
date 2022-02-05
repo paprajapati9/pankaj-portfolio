@@ -13,7 +13,7 @@ export class TimelineComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.title = 'Timeline';
+    this.title = 'My Progress';
   }
 
 }

@@ -17,7 +17,7 @@ export class PageComponent implements OnInit {
     title: 'Home',
     subtitle: 'Welcome Home!',
     content: 'Some home content.',
-    image: 'assets/bg00.jpg'
+    image: 'assets/images/algoviz.png'
   };
 
   name = 'Pankaj';
@@ -25,23 +25,23 @@ export class PageComponent implements OnInit {
   projectsData = [
     {
       name: 'AlgoViz',
-      image: 'assets/bg00.jpg'
+      image: 'assets/images/algoviz.png'
     },
     {
       name: 'Chatterbox',
-      image: 'assets/bg00.jpg'
+      image: 'assets/images/algoviz.png'
     },
     {
       name: 'Kronos',
-      image: 'assets/bg00.jpg'
+      image: 'assets/images/algoviz.png'
     },
     {
       name: 'Youtube Downloader',
-      image: 'assets/bg00.jpg'
+      image: 'assets/images/algoviz.png'
     },
     {
       name: 'Movie Recommendation System',
-      image: 'assets/bg00.jpg'
+      image: 'assets/images/algoviz.png'
     },
   ]
 

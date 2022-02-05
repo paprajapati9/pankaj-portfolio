@@ -18,16 +18,9 @@
     <h2>My <span class="pp-accent-300">Projects</span></h2>
     <p>Here is a list of all the projects I have done during the last 3 years.</p>
   </div>
-  <mat-grid-list cols="4" rowHeight="400">
-    <mat-grid-tile *ngFor="let project of projects" [routerLink]="">
-        <div class="pp-project-card">
-          <mat-card-header>
-            <mat-card-title>{{project.name}}</mat-card-title>
-          </mat-card-header>
-          <img mat-card-image src="{{project.image}}" alt="{{project.name}}">
-        </div>
-    </mat-grid-tile>
-  </mat-grid-list>
+  <app-cards
+    [cardsData]="projectsData"
+  ></app-cards>
   <hr class="timeline-seperator dotted">
 </section>
 <section class="pp-background-container pp-timeline-container">

@@ -1,3 +1,10 @@
-<p>
-  cards works!
-</p>
+<mat-grid-list cols="4" rowHeight="400">
+  <mat-grid-tile *ngFor="let card of cardsData" [routerLink]="">
+      <div class="pp-project-card">
+        <mat-card-header>
+          <mat-card-title>{{card.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="{{card.image}}" alt="{{card.name}}">
+      </div>
+  </mat-grid-tile>
+</mat-grid-list>

@@ -29,10 +29,10 @@ export class PageComponent implements OnInit {
     },
     {
       name: 'Chatterbox',
-      image: 'assets/images/algoviz.png'
+      image: 'assets/images/chatterbox.png'
     },
     {
-      name: 'Kronos',
+      name: 'Kronos Website',
       image: 'assets/images/algoviz.png'
     },
     {

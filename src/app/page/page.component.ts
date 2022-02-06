@@ -33,15 +33,15 @@ export class PageComponent implements OnInit {
     },
     {
       name: 'Kronos Website',
-      image: 'assets/images/algoviz.png'
+      image: 'assets/images/kronos.png'
     },
     {
       name: 'Youtube Downloader',
-      image: 'assets/images/algoviz.png'
+      image: 'assets/images/youtube-downloader.png'
     },
     {
       name: 'Movie Recommendation System',
-      image: 'assets/images/algoviz.png'
+      image: 'assets/images/movie-recommendation.png'
     },
   ]
 

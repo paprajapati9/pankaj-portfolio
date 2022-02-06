@@ -24,7 +24,7 @@
     width: 260px;
     height: 240px;
     top: 0;
-    background: rgba(20, 27, 65, 0.85);
+    background: rgb(20 27 65 / 41%);
 }
 
 .pp-card-image {

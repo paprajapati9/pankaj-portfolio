@@ -29,7 +29,7 @@ h2 {
 }
 
 .pp-accent-400 {
-    color: #f66714;
+    color: #f61458;
 }
 
 .pp-secondary-button {
@@ -51,6 +51,8 @@ h2 {
 .pp-projects-container {
     color: #fff;
     padding-top: 0px;
+    position: relative;
+    overflow: hidden;
 }
 
 .pp-projects-description {
@@ -59,8 +61,17 @@ h2 {
     padding-top: 60px;
 }
 
+.pp-section-background-description {
+    position: absolute;
+    bottom: 0.025em;
+    right: -1.9em;
+    z-index: 0;
+    color: rgba(255,255,255,0.04);
+    font-size: 30em;
+}
+
 .pp-accent-300 {
-    color: #f69414;
+    color: #f66214;
 }
 
 hr.dotted {
@@ -76,4 +87,14 @@ hr.dotted::before {
     color: #8aaf10;
     font-size: 35px;
     letter-spacing: 1.5em;
+}
+
+.pp-intro-heading {
+    padding-top: 60px;
+    color: white;
+}
+
+.pp-intro-description {
+    width: 40%;
+    line-height: 1.7em;
 }

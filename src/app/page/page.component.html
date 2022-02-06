@@ -18,12 +18,26 @@
     <h2>My <span class="pp-accent-300">Projects</span></h2>
     <p>Here is a list of all the projects I have done during the last 3 years.</p>
   </div>
-  <app-cards
-    [cardsData]="projectsData"
-  ></app-cards>
-  <hr class="timeline-seperator dotted">
+  <app-cards [cardsData]="projectsData"></app-cards>
+  <div class="pp-section-background-description">Projects</div>
+</section>
+<section class="pp-background-container pp-intro-container">
+  <hr class="pp-seperator dotted">
+  <div class="pp-intro-heading">
+    <h2>Me, <span class="pp-accent-300">Myself & I</span></h2>
+    <p class="pp-intro-description">I started working as a python developer
+      while learning scraping and Machine Learning, while learning this I built my
+      first project around web scraping 
+      and later built the movie recommendation model project. With this I got my 1st intern
+      where I worked on building a machine learning model for operation asha based 
+      on a clustering problem and started learnning R for data analysis.<br><br>
+      I then started learning JavaScript and Node JS to convert a project I did in R
+      to a web application.  
+    </p>
+  </div>
 </section>
 <section class="pp-background-container pp-timeline-container">
+  <hr class="pp-seperator dotted">
   <app-timeline></app-timeline>
 </section>
 <section class="pp-background-container pp-blogs-container">

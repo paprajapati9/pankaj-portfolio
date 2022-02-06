@@ -17,6 +17,7 @@ import { PageComponent } from './page/page.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { TimelineComponent } from './util/timeline/timeline.component';
 import { CardsComponent } from './util/cards/cards.component';
+import { AboutComponent } from './page/about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CardsComponent } from './util/cards/cards.component';
     PageComponent,
     HeaderNavbarComponent,
     TimelineComponent,
-    CardsComponent
+    CardsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -11,25 +11,11 @@
     min-height: 80vh;
 }
 
-h1 {
-    font-size: 6em;
-    margin: 0;
-}
-
-h2 {
-    font-size: 4em;
-    margin: 0;
-}
-
 .pp-heading-block-description {
     color: rgb(161, 161, 161);
     font-size: 1.4em;
     margin: 0;
     padding-top: 40px;
-}
-
-.pp-accent-400 {
-    color: #f61458;
 }
 
 .pp-secondary-button {
@@ -68,37 +54,4 @@ h2 {
     z-index: 0;
     color: rgba(255,255,255,0.04);
     font-size: 30em;
-}
-
-.pp-accent-300 {
-    color: #f66214;
-}
-
-.pp-primary-400 {
-    color: #14f6f6;
-}
-
-hr.dotted {
-    border: 0;
-    text-align: center;
-    overflow: visible;
-}
-
-hr.dotted::before {
-    content: '...';
-    display: inline-block;
-    margin-left: 1.5em;
-    color: #8aaf10;
-    font-size: 35px;
-    letter-spacing: 1.5em;
-}
-
-.pp-intro-heading {
-    padding-top: 60px;
-    color: white;
-}
-
-.pp-intro-description {
-    width: 40%;
-    line-height: 1.7em;
 }

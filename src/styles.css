@@ -8,3 +8,40 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1 {
+    font-size: 6em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.pp-accent-300 {
+    color: #f66214;
+}
+
+.pp-primary-400 {
+    color: #14f6f6;
+}
+
+.pp-accent-400 {
+    color: #f61458;
+}
+
+hr.dotted {
+    border: 0;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.dotted::before {
+    content: '...';
+    display: inline-block;
+    margin-left: 1.5em;
+    color: #8aaf10;
+    font-size: 35px;
+    letter-spacing: 1.5em;
+}

@@ -14,21 +14,27 @@
   </button>
 </div>
 <section class="pp-background-container pp-projects-container">
+  <a id="projects_section"></a>
   <div class="pp-projects-description">
     <h2>My <span class="pp-accent-300">Projects</span></h2>
     <p>Here is a list of all the projects I have done during the last 3 years.</p>
   </div>
   <app-cards [cardsData]="projectsData"></app-cards>
-  <div class="pp-section-background-description">Projects</div>
+  <div class="pp-projects-section-background-text">Projects</div>
 </section>
 <section class="pp-background-container pp-intro-container">
+  <a id="about_section"></a>
   <hr class="pp-seperator dotted">
   <app-about></app-about>
 </section>
 <section class="pp-background-container pp-timeline-container">
+  <a id="timeline_section"></a>
   <hr class="pp-seperator dotted">
   <app-timeline></app-timeline>
+  <div class="pp-timeline-section-background-text">Timeline</div>
 </section>
 <section class="pp-background-container pp-blogs-container">
-  <app-cards></app-cards>
+  <app-cards [articleCard]="True"
+             [cardsData]="blogsData">
+  </app-cards>
 </section>

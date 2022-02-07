@@ -9,6 +9,7 @@ import { CardsData } from 'src/app/page/page.component';
 export class CardsComponent implements OnInit {
 
   @Input() cardsData!: CardsData[];
+  @Input() articleCard: boolean = false;
 
   constructor() { }
 

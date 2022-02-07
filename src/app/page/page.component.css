@@ -47,10 +47,24 @@
     padding-top: 60px;
 }
 
-.pp-section-background-description {
+.pp-projects-section-background-text {
     position: absolute;
-    bottom: 0.025em;
+    bottom: 0.0em;
     right: -1.9em;
+    z-index: 0;
+    color: rgba(255,255,255,0.04);
+    font-size: 30em;
+}
+
+.pp-timeline-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.pp-timeline-section-background-text {
+    position: absolute;
+    top: 0.25em;
+    left: 0em;
     z-index: 0;
     color: rgba(255,255,255,0.04);
     font-size: 30em;

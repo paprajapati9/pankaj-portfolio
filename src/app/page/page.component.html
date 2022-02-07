@@ -20,7 +20,7 @@
     <p>Here is a list of a few projects I have done during the last 3 years.</p>
   </div>
   <app-cards [cardsData]="projectsData"></app-cards>
-  <div class="pp-projects-section-background-text">Projects</div>
+  <div class="pp-right-background-text">Projects</div>
 </section>
 <section class="pp-background-container pp-intro-container">
   <a id="about_section"></a>
@@ -31,10 +31,12 @@
   <a id="timeline_section"></a>
   <hr class="pp-seperator dotted">
   <app-timeline></app-timeline>
-  <div class="pp-timeline-section-background-text">Timeline</div>
+  <div class="pp-left-background-text">Timeline</div>
 </section>
 <section class="pp-background-container pp-blogs-container">
+  <h2 class="pp-articles-heading">My <span class="pp-accent-300">Articles</span></h2>
   <app-cards [articleCard]="True"
              [cardsData]="blogsData">
   </app-cards>
+  <div class="pp-right-background-text">Articles</div>
 </section>

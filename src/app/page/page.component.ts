@@ -44,6 +44,30 @@ export class PageComponent implements OnInit {
     },
   ]
 
+  blogsData = [
+    {
+      name: 'Auto Changing Theme',
+      image: 'assets/images/auto-changing-theme.png',
+      link: 'https://towardsdev.com/creating-an-auto-changing-theme-website-based-on-user-time-785d22c63705'
+    },
+    {
+      name: 'Chatterbox',
+      image: 'assets/images/chatterbox.png'
+    },
+    {
+      name: 'Kronos Website',
+      image: 'assets/images/kronos.png'
+    },
+    {
+      name: 'Youtube Downloader',
+      image: 'assets/images/youtube-downloader.png'
+    },
+    {
+      name: 'Movie Recommendation System',
+      image: 'assets/images/movie-recommendation.png'
+    },
+  ]
+
   constructor() { }
 
   ngOnInit() {

@@ -47,7 +47,7 @@
     padding-top: 60px;
 }
 
-.pp-projects-section-background-text {
+.pp-right-background-text {
     position: absolute;
     bottom: 0.0em;
     right: -1.9em;
@@ -61,11 +61,21 @@
     overflow: hidden;
 }
 
-.pp-timeline-section-background-text {
+.pp-left-background-text {
     position: absolute;
     top: 0.25em;
     left: 0em;
     z-index: 0;
     color: rgba(255,255,255,0.04);
     font-size: 30em;
+}
+
+.pp-blogs-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.pp-articles-heading {
+    text-align: center;
+    color: #fff;
 }

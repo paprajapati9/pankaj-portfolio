@@ -35,3 +35,9 @@
 .pp-navbar-link:hover{
     background: rgb(90, 89, 89);
 }
+
+.pp-author-name {
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}

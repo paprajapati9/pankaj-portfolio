@@ -4,6 +4,20 @@
 }
 
 .pp-intro-description {
-    width: 40%;
+    width: 80%;
     line-height: 1.7em;
+}
+
+.pp-about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-image-container {
+    padding-top: 80px;
+    padding-right: 40px;
+}
+
+.pp-image-container img {
+    border-radius: 300px;
 }

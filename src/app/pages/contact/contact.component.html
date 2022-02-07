@@ -1,8 +1,8 @@
-<div class="container">
-  <h2 class="text-center">Angular Contact Form Hosted On FireBase</h2>
+<div class="pp-contact-container">
+  <h2 class="text-center">Contact</h2>
   <div class="row">
     <div class="col-md-6 offset-md-3">
-      <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+      <form [formGroup]="FormData" (ngSubmit)="submitContactForm(FormData)">
         <div class="form-group">
           <label for="Email">Email</label>
           <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email"formControlName="Email">

@@ -13,12 +13,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PageComponent } from './page/page.component';
+import { PageComponent } from './pages/page.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { TimelineComponent } from './util/timeline/timeline.component';
 import { CardsComponent } from './util/cards/cards.component';
-import { AboutComponent } from './page/about/about.component';
-import { ContactComponent } from './page/contact/contact.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [

@@ -12,6 +12,7 @@
 .pp-contact-container h2 {
     font-size: 2.7em;
     text-align: center;
+    color: var(--primary-500);
 }
 
 .pp-form-container {

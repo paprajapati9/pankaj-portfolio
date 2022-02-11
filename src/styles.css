@@ -1,9 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '../node_modules/font-awesome/css/font-awesome.css';
 
 :root {
     --neutral-500: #282727;
     --neutral-600: #2f2e2e;
+    --primary-400: #14f6f6;
+    --primary-500: #44d8ff;
+    --accent-300: #f66214;
+    --accent-400: #f61458;
 }
 
 html, body { height: 100%; }
@@ -20,15 +25,15 @@ h2 {
 }
 
 .pp-accent-300 {
-    color: #f66214;
+    color: var(--accent-300)
 }
 
 .pp-primary-400 {
-    color: #14f6f6;
+    color: var(--primary-400);
 }
 
 .pp-accent-400 {
-    color: #f61458;
+    color: var(--accent-400)
 }
 
 hr.dotted {

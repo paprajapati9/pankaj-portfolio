@@ -1,24 +1,21 @@
 <div class="pp-contact-container">
-  <h2 class="text-center">Contact</h2>
-  <div class="row">
-    <div class="col-md-6 offset-md-3">
-      <form [formGroup]="FormData" (ngSubmit)="submitContactForm(FormData)">
-        <div class="form-group">
-          <label for="Email">Email</label>
-          <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email"formControlName="Email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-          <label for="fullname">Full Name</label>
-          <input type="text" class="form-control" name="Fullname" placeholder="Full Name" formControlName="Fullname">
-        </div>
-        <div class="form-group">
-          <label for="comment">Comment</label>
-          <textarea class="form-control" formControlName="Comment" name="Comment">
-          </textarea>
-        </div>
+  <h2 class="text-center">Reach out and say Hi!</h2>
+  <div class="pp-form-container">
+    <form [formGroup]="FormData" (ngSubmit)="submitContactForm(FormData)">
+      <div class="form-group">
+        <input required type="text" class="form-control" name="Fullname" placeholder="What's your name?" formControlName="Fullname">
+      </div>
+      <div class="form-group">
+        <input required type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="What's your email?"formControlName="Email">
+      </div>
+      <div class="form-group">
+        <textarea required placeholder="Message" class="form-control" formControlName="Comment" name="Comment">
+        </textarea>
+      </div>
+      <div class="form-group">
         <button type="submit" class="btn btn-primary" [disabled]="!FormData.valid">Submit</button>
-      </form>
-    </div>
+      </div>
+    </form>
+    <small id="help" class="form-text text-muted">Don't worry you information is safe here.</small>
   </div>
 </div>

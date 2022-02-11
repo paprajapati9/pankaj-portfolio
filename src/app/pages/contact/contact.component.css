@@ -1,3 +1,64 @@
 .pp-contact-container {
-    color: #fff;
+    background-color: white;
+    box-shadow: 0 0 15px #dcdcdc;
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    position: absolute;
+    top: 230px;
+    left: 220px;
+}
+
+.pp-contact-container h2 {
+    font-size: 2.7em;
+    text-align: center;
+}
+
+.pp-form-container {
+    text-align: center;
+    padding-top: 40px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.pp-form-container form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.pp-form-container .form-group,
+.pp-form-container .form-group button[type="submit"] {
+    width: 320px;
+    margin: auto;
+}
+
+.pp-form-container .form-group input,
+.pp-form-container .form-group textarea,
+.pp-form-container .form-group button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pp-form-container .form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.pp-form-container .form-group button[type="submit"] {
+    background-color: #00BFFF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 342px;
+}
+
+.pp-form-container .form-group button[type="submit"]:disabled {
+    background-color: #DCDCDC;
+    color: white;
+    font-weight: bold;
+    cursor: not-allowed;
 }

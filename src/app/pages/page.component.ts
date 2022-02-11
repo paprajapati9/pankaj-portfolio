@@ -68,6 +68,8 @@ export class PageComponent implements OnInit {
     },
   ]
 
+  contactImage = 'assets/images/sky.png';
+
   constructor() { }
 
   ngOnInit() {

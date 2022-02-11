@@ -7,8 +7,9 @@
     --neutral-600: #2f2e2e;
     --primary-400: #14f6f6;
     --primary-500: #44d8ff;
+    --primary-600: #0cb0f1;
     --accent-300: #f66214;
-    --accent-400: #f61458;
+    --accent-400: #ff5900;
 }
 
 html, body { height: 100%; }
@@ -46,7 +47,7 @@ hr.dotted::before {
     content: '...';
     display: inline-block;
     margin-left: 1.5em;
-    color: #8aaf10;
+    color: var(--primary-400);
     font-size: 35px;
     letter-spacing: 1.5em;
 }

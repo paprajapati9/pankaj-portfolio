@@ -47,7 +47,7 @@ export class PageComponent implements OnInit {
   blogsData = [
     {
       name: 'Auto Changing Theme',
-      image: 'assets/images/auto-changing-theme.png',
+      image: 'assets/images/light-dark.png',
       link: 'https://towardsdev.com/creating-an-auto-changing-theme-website-based-on-user-time-785d22c63705'
     },
     {

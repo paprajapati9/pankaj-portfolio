@@ -35,7 +35,7 @@
 .pp-navbar-link .pp-social-media-links {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 14px;
 }
 
 .pp-navbar-link:hover{

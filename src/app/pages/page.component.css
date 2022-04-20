@@ -29,6 +29,11 @@
     padding: 12px 34px;
 }
 
+.pp-secondary-button a {
+    color: var(--primary-400);
+    text-decoration: none;
+}
+
 .pp-secondary-button:hover {
     background: var(--primary-600);
     color: #fff;

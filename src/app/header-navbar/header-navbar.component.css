@@ -32,6 +32,12 @@
     text-decoration: none;
 }
 
+.pp-navbar-link .pp-social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
 .pp-navbar-link:hover{
     background: rgb(90, 89, 89);
 }
